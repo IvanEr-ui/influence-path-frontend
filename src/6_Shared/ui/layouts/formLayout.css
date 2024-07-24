@@ -1,0 +1,12 @@
+.form_info_section{
+    height: 100vh;
+    display: flex;
+}
+.form_section {
+    width: 559px;
+    background-color: black;
+}
+.info_section {
+    width: calc(1139px - 559px);
+    background-color: white;
+}

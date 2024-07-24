@@ -1,0 +1,23 @@
+input:-webkit-autofill {
+  transition: all 5000s ease-in-out;
+}
+.input_text{
+  color: white;
+}
+
+.field-label {
+  margin-bottom: 10px;
+}
+
+.field-label .label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.field-label .label-rigth {
+    font-size: 10px;
+    font-weight: lighter;
+    color: #7467FF;
+    padding-top: 9px;
+    padding-left: 262px;
+}

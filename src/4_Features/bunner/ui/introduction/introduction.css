@@ -1,0 +1,25 @@
+.introduction{
+    margin-left: 62px;
+    height: 345px;
+    width: 443px;
+}
+
+.introduction-heading{
+    margin: 0;
+    height: 211px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 35px;
+}
+.introduction-subheading{
+    height: 64px;
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.cta-buttons{
+    display: flex;
+    justify-content:space-between;
+}

@@ -1,0 +1,8 @@
+{
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "workbench.preferredLightColorTheme": "Visual Studio Dark",
+    "workbench.preferredHighContrastLightColorTheme": "Visual Studio Dark",
+    "workbench.preferredHighContrastColorTheme": "Default High Contrast Light",
+    "workbench.preferredDarkColorTheme": "Default High Contrast",
+    "workbench.colorTheme": "Visual Studio Dark"
+}

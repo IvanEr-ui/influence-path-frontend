@@ -1,0 +1,26 @@
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    position: absolute;
+    height: 100px;
+    background: linear-gradient( #000000 88%, rgb(252,104,250, 0.8) 94%, rgb(255, 255, 255, 1) 100%);
+    width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; 
+}
+
+header .logo{
+    margin: 15px 16px 15px 27px;
+} 
+
+header .line{
+    height: 53px;
+    border-left: 1px solid white;
+    margin-top: 22px;
+}

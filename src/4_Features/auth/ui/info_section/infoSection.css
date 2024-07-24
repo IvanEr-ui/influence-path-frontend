@@ -1,0 +1,25 @@
+.info {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 419px;
+    height: 602px;
+    color: black;
+}
+.info h2 {
+    width: 100%;
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.info p {
+    line-height: 10px;
+    width: 100%;
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 15px;
+}
