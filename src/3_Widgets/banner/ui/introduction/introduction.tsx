@@ -8,7 +8,7 @@ import ROUTES from '@shared/consts/routes'
 export const Introduction = () => {
     return (
         <div className="introduction">
-            <h2 className="introduction-heading">Любой может внести<br />
+            <h2 className="heading">Любой может внести<br />
                 свой вклад в развитие<br />
                 проектов, зарабатывать,<br />
                 участвуя в<br />
@@ -17,7 +17,7 @@ export const Introduction = () => {
                     Программах
                 </span>
             </h2>
-            <p className="introduction-subheading">Участвуйте в амбассадорских программах и легко организуйте свою<br />
+            <p className="subheading">Участвуйте в амбассадорских программах и легко организуйте свою<br />
                 собственную амбассадорскую программу с нашей <span style={{ color: "rgb(252, 104, 250, 0.8)" }}>инновационной <br />
                     платформой.</span>
             </p>

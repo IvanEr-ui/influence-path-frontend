@@ -1,10 +1,10 @@
 .introduction{
     margin-left: 62px;
     height: 345px;
-    width: 443px;
+    width: 440px;
 }
 
-.introduction-heading{
+.introduction .heading{
     margin: 0;
     height: 211px;
     font-size: 30px;
@@ -12,14 +12,14 @@
     text-align: justify;
     line-height: 35px;
 }
-.introduction-subheading{
+.introduction .subheading{
     height: 64px;
     font-size: 12px;
     font-weight: lighter;
     text-align: justify;
 }
 
-.cta-buttons{
+.introduction .cta-buttons{
     display: flex;
     justify-content:space-between;
 }
