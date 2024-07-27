@@ -1,0 +1,101 @@
+.amb-card-program {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.content {
+    width: 263px;
+    padding: 8px 26px;
+}
+
+.content .icon_status {
+    display: flex;
+}
+
+.content .icon_status .icon {
+    width: 35px;
+    height: 35px;
+}
+
+.content .icon_status .status {
+    width: 61px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.content .icon_status .status .status-text {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.content .icon_status .status-indicator {
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.content .icon_status .status-indicator.green {
+    border-color: green;
+    background-color: green;
+}
+
+.content .icon_status .status-indicator.red {
+    border-color: red;
+    background-color: red;
+}
+
+.amb-program-info {
+    display: flex;
+}
+
+.amb-program-info .project-name {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: bold;
+    margin: 5px 0 5px 0;
+}
+
+.amb-program-info .amb-program-name {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight:lighter;
+    margin: 0 0 8px 0;
+}
+
+.amb-program-statistics  {
+    width: 56px;
+    height: 31px;
+    display: inline;
+    display: flex;
+    margin-left: auto;
+}
+
+.amb-program-statistics img {
+   width: 18px;
+   height: 18px;
+   padding-top: 12px;
+}
+
+.amb-program-statistics p{
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 10px;
+} 
+
+.amb-program-statistics  .percent-statistics{
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+.amb-program-statistics  .numerical-statistics{
+    position: relative;
+    left: -25px;
+    top: 10px;
+}

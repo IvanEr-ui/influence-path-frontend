@@ -1,4 +1,4 @@
-import styles from './header_menu.module.css'
+import './header_menu.css'
 
 import { UiButton } from '@shared/ui/form/button/Button'
 import { Link } from 'react-router-dom'
@@ -8,7 +8,7 @@ import ROUTES from '@shared/consts/routes'
 
 export const HeaderMenu = () => {
     return (
-        <div className={styles.header_menu}>
+        <nav className="header_menu">
             <Link to={ROUTES.AMBASSADOR_PROGRAMS}><p>Амбассадорские <br />программы</p></Link>
             <Link to={ROUTES.PARTNERS}><p>Партнеры</p></Link>
             <Link to={ROUTES.SIGN_IN}>
@@ -29,6 +29,6 @@ export const HeaderMenu = () => {
                     Войти
                 </UiButton>
             </Link>
-        </div >
+        </nav >
     )
 }

@@ -1,0 +1,43 @@
+.section-view{
+    width: 1100px;
+    margin-left: 62px;
+}
+
+.amb-programs-list{
+    align-items: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 330px);
+    grid-template-rows: repeat(3, 85px);
+    row-gap: 20px;
+    column-gap: 50px;
+}
+
+.section-view h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+.section-view .view-amb-button {
+    background-color: black !important;
+    border-color: #FF6DFC;
+    width: 233px;
+    height: 44px;
+    margin: 48px 0 0 calc(330px + 50px + (330px - 233px)/2);
+}
+
+.section-view .view-amb-button p{
+    width: 148px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+@media (max-width: 990px) {
+    .section-view{
+        width: 950px;
+        margin: 0 auto;
+    }
+}
+ 

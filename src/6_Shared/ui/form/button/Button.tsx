@@ -13,14 +13,12 @@ export function UiButton(
     { children, className, variant, ...baseInputSelectProps }: IButtonProps
 ) {
     return (
-        <div className={cn("custom_button", className, variant)}>
-            <Button
-                type="primary"
-                {...baseInputSelectProps}
-            >
-                {children}
-            </Button>
-        </div >
-
+        <Button
+            type="primary"
+            className={cn("custom_button", className, variant)}
+            {...baseInputSelectProps}
+        >
+            {children}
+        </Button>
     )
 }

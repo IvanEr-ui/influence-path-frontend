@@ -38,6 +38,7 @@ export const Introduction = () => {
 }
 
 const styleButton = {
+    backgroundColor: "black",
     width: "180px",
     height: "50px",
     fontSize: "15px",

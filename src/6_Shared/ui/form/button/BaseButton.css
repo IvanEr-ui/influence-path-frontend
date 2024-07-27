@@ -1,19 +1,32 @@
+.custom_button:hover,
+.custom_button:focus,
+.custom_button:active {
+  background-color: black ; /* Фон остаётся чёрным */
+  border-color:none !important; /* Граница остаётся белой */
+  color: white ; /* Цвет текста остаётся белым */
+  box-shadow: none !important; /* Убираем тень */
+  outline: none !important; /* Убираем контур */
+}
+
+.ant-btn-click-animating,
+.ant-btn-click-animating:after {
+  display: none !important; /* Убираем эффект волны */
+}
+
 
 .custom_button {
+  background-color: black ;
+  border: 1px solid white;
+
   .ant-btn-primary {
-    width: 100px;
-    height: 30px;
-
-    border: 1px solid white;
-    background-color: black;
-
+    border: 1px solid rgba(252, 104, 250, 0.8);
     border-radius: 10px;
     padding: 5px 0 5px 0;
 
     color: white;
     cursor: pointer;
-  }
-  .ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover{
-    background-color: black;
+    
+    font-size: 10px;
+    font-weight: bold;
   }
 }

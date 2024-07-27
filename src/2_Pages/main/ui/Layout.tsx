@@ -1,6 +1,5 @@
 import React from "react"
 
-
 interface IMainLayout {
     header: React.ReactNode;
     banner: React.ReactNode;
@@ -13,10 +12,12 @@ const MainLayout = ({ header, banner, ambProgramSelection, ambProgramsList, foot
     return (
         <>
             {header}
-            {banner}
-            {ambProgramSelection}
-            {ambProgramsList}
-            {footer}
+            <div style={{ marginTop: "100px" }}>
+                {banner}
+                {ambProgramSelection}
+                {ambProgramsList}
+                {footer}
+            </div >
         </>
     )
 }
